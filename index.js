@@ -9,11 +9,11 @@ const Diff = require("diff");
 
 const sizes = {
   0: "XS",
-  10: "S",
-  30: "M",
-  100: "L",
-  500: "XL",
-  1000: "XXL"
+  100: "S",
+  500: "M",
+  1000: "L",
+  5000: "XL",
+  10000: "XXL"
 };
 
 const actions = ["opened", "synchronize", "reopened"];
